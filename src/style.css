@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: AlibabaPuHuiTi;
+  src: url(./assets/fonts/AlibabaPuHuiTi-3-55-Regular.otf);
+}
+@font-face {
+  font-family: gilroy;
+  src: url(./assets/fonts/gilroy-regular-3.otf);
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  font-family:
+    AlibabaPuHuiTi,
+    Helvetica Neue,
+    Helvetica,
+    PingFang SC,
+    Hiragino Sans GB,
+    Microsoft YaHei,
+    微软雅黑,
+    Arial,
+    sans-serif;
+}
+
+.gilroy {
+  font-family: gilroy;
+}
+
+.scrollbar {
+  --scrollbarBG: transparent;
+  --thumbBG: #071324;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG);
+      border-radius: 4px;
+      border: 3px solid var(--scrollbarBG);
+    }
+  }
+}
