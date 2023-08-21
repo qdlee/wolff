@@ -12,6 +12,10 @@ export default {
       backgroundSize: {
         full: '100% 100%',
       },
+      backgroundImage: {
+        back: 'url(/src/assets/back.jpg)',
+        panelTitle: 'url(/src/assets/panel_title.png)',
+      },
     },
   },
   plugins: [],
