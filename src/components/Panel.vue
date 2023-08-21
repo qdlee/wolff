@@ -7,7 +7,7 @@ defineProps<{
 
 <template>
   <div class="grid grid-rows-[auto_minmax(0_1fr)]">
-    <div class="bg-panelTitle flex h-8 items-end bg-full px-6 py-1.5">
+    <div class="flex h-8 items-end bg-panelTitle bg-cover px-6 py-1.5">
       <span
         class="text-base font-medium leading-none text-[#e8f2ff]"
         :style="{ textShadow: '0px 2px 0px #123466' }"
